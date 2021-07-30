@@ -1,0 +1,16 @@
+{
+  "name": "EmailValidator4JS",
+  "version": "0.1.0",
+  "description": "RFC compliant email address validator. A port of PHP's EmailValidator",
+  "main": "index.js",
+  "scripts": {
+    "build" : "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["email validation", "email", "validation"],
+  "author": "Eduardo Gulias Davis",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
