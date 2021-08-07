@@ -4,13 +4,20 @@
   "description": "RFC compliant email address validator. A port of PHP's EmailValidator",
   "main": "index.js",
   "scripts": {
-    "build" : "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "test": "jest"
   },
-  "keywords": ["email validation", "email", "validation"],
+  "keywords": [
+    "email validation",
+    "email",
+    "validation"
+  ],
   "author": "Eduardo Gulias Davis",
   "license": "MIT",
   "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.4",
     "typescript": "^4.3.5"
   }
 }
